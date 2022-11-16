@@ -75,3 +75,13 @@ section{
     display: none;
     transform: translateY(0) scale(1);
 }
+
+//controls
+
+.controlls{
+    position: fixed;
+    z-index: 0;
+    top: 50%;
+    right: 3%;
+
+}

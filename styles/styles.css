@@ -75,4 +75,11 @@ section {
 .sec5 {
   display: none;
   transform: translateY(0) scale(1);
+}
+
+.controlls {
+  position: fixed;
+  z-index: 0;
+  top: 50%;
+  right: 3%;
 }/*# sourceMappingURL=styles.css.map */
