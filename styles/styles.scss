@@ -87,6 +87,14 @@ section{
     flex-direction: column;
     justify-content: center;
     transform: translateY(-50%);
+    .active-btn
+    {
+        background-color: var(--color-secondary) !important;
+        transition: all .4s ease-in-out;
+        i{
+            color: var(--color-white) !important;
+        }
+    }
     .control{
         padding: 1rem;
         cursor: pointer;
@@ -99,5 +107,10 @@ section{
         align-items: center;
         margin: .7rem 0;
         box-shadow: var(--box-shadow-1);
+        i{
+            font-size: 1.2rem;
+            color: var(--color-brown);//color of logos in the buttons
+            pointer-events: none;
+        }
     }
 }
